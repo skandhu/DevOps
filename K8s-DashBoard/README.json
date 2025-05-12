@@ -1,0 +1,17 @@
+This is NodeJS app
+Created using, 
+    npm init -y
+    npm install express @kubernetes/client-node
+Then we have created app.js file with code init.
+after that we ran below command to start the app
+    node app.js
+This will listen in http://localhost:3000
+
+Later we have created DockerFile to make this as image
+
+we used below command to to build image and push to repo
+    docker build -t registryname/reponame:version .
+    ex: docker build -t acrlearning1.azurecr.io/k8s-dashboard:v1 .
+    
+    docker push registryname/reponame:version
+    ex: docker push acrlearning1.azurecr.io/k8s-dashboard:v1

@@ -1,0 +1,17 @@
+{
+  "name": "k8s-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^1.2.0",
+    "express": "^5.1.0",
+    "k8s-dashboard": "file:"
+  }
+}
